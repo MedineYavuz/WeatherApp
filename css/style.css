@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&family=Open+Sans:ital,wght@1,500;1,800&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto+Serif:opsz@8..144&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('/image/sehir.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,.7);
+    height: 100vh;
+}
+.header{
+    padding: 50px 20px 30px 20px;
+}
+.header h1{
+    font-size: 50px;
+    color: #CC7F69;
+    text-shadow: 1px 3px rgba(0,0,0,.9);
+}
+.header input{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #CC7F69;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.city{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+}
+.temp{
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-shadow: 1px 5px rgba(0,0,0,.8);
+}
+.desc{
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+}
+.minmax{
+    font-size: 24px;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+}
